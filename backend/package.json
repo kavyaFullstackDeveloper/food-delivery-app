@@ -6,16 +6,14 @@
   "type": "module",
   "scripts": {
     "server": "nodemon server.js",
-    "postinstall": "npm rebuild bcrypt --build-from-source",
     "build": "echo No build step necessary'"
   },
   "engines": {
-    "node" : "14.X"
+    "node": "14.X"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
