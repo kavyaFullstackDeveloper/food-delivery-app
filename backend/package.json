@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "server": "nodemon server.js",
-    "postinstall": "npm rebuild bcrypt --build-from-source"
+    "postinstall": "npm rebuild bcrypt --build-from-source",
+    "build": "echo No build step necessary'"
   },
   "engines": {
     "node" : "14.X"
